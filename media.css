@@ -1,0 +1,69 @@
+@media (max-width: 500px) {
+    body {
+        margin: 20px;
+    }
+
+    .navbar{
+        display: flex;
+        align-items: center;
+    }
+
+    .lista {
+        display: none;
+    }
+    
+    .accordion-bars {
+        display: block;
+    }
+
+    .bars {
+        display: block;
+        color: white;
+        font-size: 25px;
+        margin-right: 10px;
+    }
+
+    .pantera {
+        display: none;
+    }
+
+    .sobre {
+        width: 65%;
+        margin-left: 20%;
+    }
+
+    .modal {
+        width: 490px;
+        margin-right: 40px;
+    }
+    
+    .sobre-mim {
+        height: 300px;
+    }
+    
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-top: 25px;
+    }
+    
+    .servico {
+        margin-top: 25px;
+    }
+
+    .acordion-3 {
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .projetos {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    footer {
+        margin-right: 30%;
+    }
+}

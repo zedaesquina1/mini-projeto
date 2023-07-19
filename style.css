@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0px 120px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.lista {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.lista2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    list-style: none;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    width: 110px;
+    background-color: #111;
+    margin-left: -50px;
+  }
+
+.dropdown a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.bars {
+    display: none;
+}
+
+.logo {
+    color:#66FCF1;
+    font-size: 30px;
+}
+
+.link-navbar {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.link-navbar:hover {
+    color: #66FCF1;
+    border-bottom: 1px solid  #66FCF1;
+}
+
+.accordion-bars {
+    display: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    transition: 0.4s;
+    width: 50px;
+}
+
+.panel-bars {
+    display: none;
+}
+
+.titulo {
+    color:#66FCF1;
+    width: 500px;
+    font-size: 45px;
+    text-align: center;
+    margin-left: -100px;
+}
+
+.section {
+    background-color: rgb(0, 0, 0);
+}
+
+.btn-modal {
+    width: 100px;
+    height: 38px;
+    background-color: #111;
+    border: 1px solid #66FCF1;
+    color: white;
+    margin-left: -100px;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    left: 24%;
+    top: 0;
+    width: 800px;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #111;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #66FCF1;
+    width: 80%;
+}
+
+.close {
+    float: right; 
+    cursor: pointer;
+    font-size: 19px;
+    color: white;
+}
+
+.conteudo {
+    color: white;
+}
+
+.titulo-modal {
+    color: #66FCF1;
+    text-align: center;
+}
+
+.sobre-mim {
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    height: 400px;
+    box-shadow: 5px 10px  rgb(3, 3, 3)88;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-left: 100px;
+}
+
+.pantera {
+    width: 300px;
+    height: 300px;
+    
+}
+
+.metas {
+    color: white;
+}
+
+.cards {
+    display: flex;
+    gap: 100px;
+}
+
+.card-meta {
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    background-color: #111;
+    margin-bottom: 50px;
+}
+
+.card-meta:hover {
+    border: 2px solid #66FCF1;
+    width: 348px;
+    height: 298px;
+}
+
+.servicos-titulo {
+    color: white;
+}
+
+.servico {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    color: white;
+}
+
+.accordion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 400px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    background-color: #111;
+}
+  
+.active, .accordion:hover {
+    border: 2px solid #66FCF1;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+}
+  
+.panel {
+    display: flex;
+    flex-direction: column;
+    padding: 0 18px;
+    width: 400px;
+    display: none;
+    background-color: #111;
+    overflow: hidden;
+    border: 2px solid #66FCF1;
+}
+
+.acordion-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.icon-linguagem {
+    font-size: 25px;
+    color: #66FCF1;
+}
+
+.projetos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projeto-todo {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.img {
+    margin: 3px;
+    width: 300px;
+    height: 230px;
+    opacity: 0.5;
+    
+}
+
+.img:hover {
+    opacity: 1;
+    transition: 1s;
+}
+
+.trabalhos {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 310px;
+    height: 400px;
+    border: 2px solid white;
+    text-align: center;
+}
+
+.btn-projeto {
+    width: 140px;
+    height: 40px;
+    background-color: #111;
+    border: 1px solid white;
+    color: #66FCF1;
+    cursor: pointer;
+}
+
+.btn-projeto:hover {
+    background-color: #66FCF1;
+    color: white;
+    transition: 1s;
+}
+
+.link-redes {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon {
+    color: #66FCF1;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    height: 80px;
+}
+
+.redes {
+    margin-left: 41%;
+}
+
+.icone {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.icone:hover {
+    color: #66FCF1;
+    transition: 1s;
+}

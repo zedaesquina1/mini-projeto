@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css%22%3E">
+</head>
+<body>
+    <div class="navbar">
+        <div>
+            <h2 class="logo">developer TechLab</h2>
+        </div>
+        <div>
+            <ul class="lista">
+                <a class="link-navbar" href="index.html">
+                    <li>home</li>
+                </a>
+                <a class="link-navbar" href="#sobre-mim">
+                    <li>Sobre mim</li>
+                </a>
+                <a class="link-navbar" href="#minhas-metas">
+                    <li>minhas metas</li>
+                </a>
+                <a class="link-navbar" href="#servico">
+                    <li>experiências</li>
+                </a>
+                <a class="link-navbar" href="#projeto">
+                    <li>projetos</li>
+                </a>
+            </ul>
+
+            <div class="accordion-bars">
+                <a href="javascript:void(0);"  onclick="toggleNavbar()">
+                    <i class="fa-solid fa-bars bars"></i>
+                </a>
+            </div>
+
+            <div class="dropdown" id="dropdown">
+                <ul class="lista2">
+                    <a class="link-navbar" href="index.html">
+                        <li>home</li>
+                    </a>
+                    <a class="link-navbar" href="#sobre-mim">
+                        <li>Sobre mim</li>
+                    </a>
+                    <a class="link-navbar" href="#minhas-metas">
+                        <li>minhas metas</li>
+                    </a>
+                    <a class="link-navbar" href="#servico">
+                        <li>experiências</li>
+                    </a>
+                    <a class="link-navbar" href="#projeto">
+                        <li>projetos</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="sobre-mim" id="sobre-mim">
+            <img class="pantera" src="src/pantera2.png" alt="">
+            <div class="sobre">
+                <h1 class="titulo">Conheça um pouco mais sobre mim</h1>
+                <button  class="btn-modal" onclick="openModal()">Click aqui</button>
+            </div>
+            <img class="pantera" src="src/transferir.png" alt="">
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                  <span onclick="closeModal()" class="close">x</span>
+                  <h1 class="titulo-modal">Ola meu nome é Daniel</h1>
+                  <p class="conteudo">sou um estudante do ensino médio. Eu nasci e ainda moro em São Paulo. Meu primeiro contato com computadores foi há alguns anos e foi quando me encantei por essa área. A medida que fui explorando mais sobre tecnologia, percebi que meu verdadeiro interesse estava no desenvolvimento de jogos. A possibilidade de criar mundos virtuais e contar histórias interativas me fascinou. Desde então, tenho dedicado meu tempo livre para aprender sobre programação. Comecei com cursos online e fui adquirindo conhecimentos em varias linguagens.</p>
+                  <p class="conteudo">Estou animado com as oportunidades que a programação e o desenvolvimento de jogos podem oferecer. Tenho grandes planos para o futuro, incluindo a criação de jogos originais que possam trazer diversão e entretenimento para as pessoas. Com dedicação e perseverança, estou determinado a seguir essa carreira apaixonante e realizar meu sonho.</p>
+                  <p class="conteudo">Sei que o caminho não será fácil, mas estou disposto a enfrentar os desafios que surgirem. Acredito que a paixão pelo que faço me impulsionará a superar obstáculos e alcançar sucesso. Estou ansioso para mergulhar cada vez mais nesse mundo da programação de jogos e explorar novas tecnologias e técnicas.</p>
+                </div>
+              </div>
+        </div>
+        <div class="metas" id="minhas-metas">
+            <h1>- Minhas Metas</h1>
+            <div class="cards">
+                <div class="card-meta">
+                    <i class="fa-solid fa-graduation-cap icon"></i>
+                    <h2>Terminar a PDA</h2>
+                    <p>Depois de começar o curso dos Programadores do Amanhã, eu fiquei cada vez mais ansioso para aprender o máximo possível e me tornar um grande desenvolvedor</p>
+                </div>
+                <div class="card-meta">
+                    <i class="fa-solid fa-gamepad icon"></i>
+                    <h2>Desenvolver um jogo</h2>
+                    <p>Estou determinado a dedicar meu tempo e esforço para aprimorar minhas habilidades de programação e design de jogos. Estou confiante de que, com perseverança e dedicação, alcançarei meu objetivo de criar um jogo completo até o final deste ano</p>
+                </div>
+                <div class="card-meta">
+                    <i class="fa-sharp fa-solid fa-computer icon"></i>
+                    <h2>Conseguir o meu primeiro emprego</h2>
+                    <p>Meu objetivo é conquistar um emprego que me ajude a seguir em direção ao meu sonho. Busco uma oportunidade desafiadora, onde possa aplicar minhas habilidades e continuar aprendendo como desenvolvedor. Acredito que um emprego sólido e inspirador será fundamental para impulsionar minha carreira e alcançar meus objetivos</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <h1 class="servicos-titulo" id="servico">- Minhas Experiências</h1>
+    <div class="servico">
+        <div class="acordion-3">
+            <div class="section">
+                <button class="accordion">HTML <i class="fa-brands fa-html5 icon-linguagem"></i></button>
+                <div class="panel">
+                    <p>HTML, ou Hypertext Markup Language, é a linguagem de marcação utilizada para criar e estruturar páginas web. Composto por tags e elementos, o HTML permite a formatação de texto, inserção de imagens e criação de links, proporcionando a base para o desenvolvimento de sites e aplicações online interativas. Dominar HTML é essencial para construir uma presença digital sólida e atrativa</p>
+                </div>
+            </div>
+            <div class="section">
+                <button class="accordion">CSS<i class="fa-brands fa-css3-alt icon-linguagem"></i></button>
+                <div class="panel">
+                    <p>HTML para definir a aparência e o layout de elementos em uma página web. Com o CSS, é possível controlar cores, fontes, espaçamento, posicionamento e outros atributos visuais, permitindo personalizar completamente o design de um site. Com suas regras e seletores, o CSS oferece flexibilidade e consistência na apresentação de conteúdo, garantindo uma experiência visualmente agradável e coerente para os usuários.</p>
+                </div>
+            </div>
+            <div class="section">
+                <button class="accordion">javascript <i class="fa-brands fa-js icon-linguagem"></i></button>
+                <div class="panel">
+                <p>JavaScript é uma linguagem de programação amplamente utilizada no desenvolvimento web. Com ela, é possível adicionar interatividade e funcionalidades dinâmicas às páginas HTML. O JavaScript permite manipular elementos da página, responder a eventos do usuário, fazer requisições a servidores e criar animações, entre outras possibilidades.</p>
+                </div>
+            </div>
+        </div>
+        <div class="acordion-3">
+            <div class="section">
+                <button class="accordion">phyton <i class="fa-solid fa-code icon-linguagem"></i></button>
+                <div class="panel">
+                    <p>Python é uma linguagem de programação de alto nível, interpretada e de fácil leitura e escrita. Ela se destaca por sua sintaxe clara e concisa, o que a torna uma escolha popular entre desenvolvedores de diferentes níveis de experiência. Python é versátil, podendo ser utilizada em uma ampla gama de aplicações, desde desenvolvimento web e científico até automação de tarefas e inteligência artificial</p>
+                </div>
+            </div>
+            <div class="section">
+                <button class="accordion">Java <i class="fa-brands fa-java icon-linguagem"></i></button>
+                <div class="panel">
+                    <p>Java é uma linguagem de programação versátil e robusta, amplamente utilizada para o desenvolvimento de aplicativos de software. Com sua sintaxe elegante e orientação a objetos, o Java permite a criação de programas portáveis, de alto desempenho e seguros. Ele é usado em uma variedade de aplicações, desde aplicações de desktop até sistemas distribuídos em larga escala.</p>
+                </div>
+            </div>
+            <div class="section">
+                <button class="accordion">WIndows <i class="fa-brands fa-windows icon-linguagem"></i></button>
+                <div class="panel">
+                <p>
+                    O Windows é um sistema operacional desenvolvido pela Microsoft, amplamente utilizado em computadores pessoais e em ambientes corporativos. Conhecido por sua interface gráfica amigável, o Windows oferece uma experiência intuitiva aos usuários, permitindo a execução de uma ampla variedade de aplicativos e programas.</p>
+                </div>
+            </div>
+    </div>
+
+    <div class="projeto-todo" id="projeto">
+        <h1>- Meus Projetos</h1>
+        <div class="projetos">
+                <div class="trabalhos">
+                    <img class="img" src="src/salario.png" alt="">
+                    <p>Esse foi um projeto que criei a poucos dias em um trabalho da PDA</p>
+                    <a class="" href="https://marvelous-speculoos-3bbb8c.netlify.app/" target="_blank"><button class="btn-projeto">Ver projeto inteiro</button></a>
+                </div>
+
+
+                <div class="trabalhos">
+                    <img class="img" src="src/lanchonete.png" alt="">
+                    <p>Esse é um site que ainda esta em desenvolvimento </p>
+                    <a href="https://lively-buttercream-06e930.netlify.app/" target="_blank"><button class="btn-projeto">Ver projeto inteiro</button></a>
+                </div>
+
+
+                <div class="trabalhos">
+                    <img class="img" src="src/imc.png" alt="">
+                    <p>Esse foi um caculo IMC que criei no instituto eurofarma</p>
+                    <a href="https://imcdaran.netlify.app/"><button class="btn-projeto" target="_blank">Ver projeto inteiro</button></a>
+                </div>
+
+        </div>
+        <div class="projetos">
+
+                <div class="trabalhos">
+                    <img class="img" src="src/desafio.png" alt="">
+                    <p>Esse foi um desafio que tinha em um ste que ajudava a aprender sobre HTML e CSS</p>
+                    <a href="https://desafiodanran.netlify.app/" target="_blank"><button class="btn-projeto">Ver projeto inteiro</button></a>
+                </div>
+
+
+                <div class="trabalhos">
+                    <img class="img" src="src/advocacia.png" alt="">
+                    <p>Esse foi um site que criei para uma advocacia</p>
+                    <a href="https://monumental-swan-2e7941.netlify.app/" target="_blank"><button class="btn-projeto">Ver projeto inteiro</button></a>
+                </div>
+
+
+                <div class="trabalhos">
+                    <img class="img" src="src/form.png" alt="">
+                    <p>Esse foi o form de um trabalho da PDA</p>
+                    <a href="https://formdaran.netlify.app/" target="_blank"><button class="btn-projeto" target="_blank">Ver projeto inteiro</button></a>
+                </div>
+
+        </div>
+    </div >
+
+    <footer>
+        <div class="redes">
+            <ul class="link-redes">
+                <a class="icone" href="https://github.com/zedaesquina1">
+                    <li><i class="fa-brands fa-github git"></i></li>
+                </a>
+                <a class="icone" href="https://www.linkedin.com/in/daniel-alves-488143279/">
+                    <li><i class="fa-brands fa-linkedin"></i></li>
+                </a>
+                <a class="icone" href="https://discordapp.com/users/1040388916005572638.">
+                    <li><i class="fa-brands fa-discord"></i></li>
+                </a>
+                <a class="icone" href="https://wa.me/5511949030687">
+                    <li><i class="fa-brands fa-whatsapp"></i></li>
+                </a>
+            </ul>
+        </div>
+    </footer>
+
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/4c00a60172.js" crossorigin="anonymous"></script>
+</body>
+</html>
